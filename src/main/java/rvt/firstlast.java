@@ -31,6 +31,7 @@ public class firstlast {
 
         if(!userList.isEmpty()) {
             int lastIndex = userList.size() - 1;
+            int firstIndex = 0;
 
             System.out.println("Last item was: " + userList.get(lastIndex));
         } else {
